@@ -12,18 +12,24 @@
 <body>
     <h1>Fremd Cross Country</h1>
     <p>Warren Invite</p> 
-    <button type="button" onclick="Display_Runners()">Show Results?</button>
-
+    <button type="button" onclick="Display_Runners()">Show Results!</button>
+    <button type="button" onclick="Display_RunnersC">Show Results!</button>  
     <div id="First_div">
+    <div id= "Second_div">
 
     </div>
     <script type="text/javascript">
         var Runners = ["Ed Worthem: 15:04", " Keith Contreras: 15:32", " Ethan Saunders: 16:21"]
+        var RunnersC =["Ed Worthem 14:52", "Keith Contreras 15:04", "Ethan Saunders 15:21"]
 
         function Display_Runners() {
             document.getElementById("First_div").innerHTML = Runners;
-
+         }
+        function Display_RunnersC() {
+            document.getElementById("Second_div").innerHTML = RunnersC;
         }
+    <p1> Conference Meet</p1>
+      
     </script>
 </body>
 </html>
