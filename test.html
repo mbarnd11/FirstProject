@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Fremd XC</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Fremd Cross Country</h1>
+    <p>Warren Invite    
+        
+    <button type="button" onclick="Display_Runners()">Show Results!</button>
+    <div id="First_div">
+    
+    </div>
+    </p>
+    <p> Conference Meet 
+   
+    <button type="button" onclick="Display_RunnersC()">Show Results!</button>  
+    <div id= "Second_div">
+
+    </div>
+    </p>
+    <script type="text/javascript">
+        var Runners = ["Ed Worthem: 15:04", " Keith Contreras: 15:32", " Ethan Saunders: 16:21", " Ryan Meyer 16:49"]
+        var RunnersC =["Ed Worthem 14:52", " Keith Contreras 15:04", " Ethan Saunders 15:21", " Ryan Meyer 16:37"]
+
+        function Display_Runners() {
+            document.getElementById("First_div").innerHTML = Runners;
+         }
+        function Display_RunnersC() {
+            document.getElementById("Second_div").innerHTML = RunnersC;
+        }
+      console.log("Hey Guys")
+    </script>
+</body>
+</html>
